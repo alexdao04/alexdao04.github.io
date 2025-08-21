@@ -1,76 +1,71 @@
-        /* This is where the existing CSS is for our site.
-        What we don't want is to manually create inline styles for each element on each page
-        hence we're going to try and import this straight to styles.css */
-            body {
-                font-family: Arial, sans-serif;
-                background-color: #f4f4f4;
-                color: #333;
-                margin: 0;
-                padding: 20px;
-            }
+/* Dedicated global styling file for the site. */
+/* Last maintained: 8/20/2025 */
+/* Alexander Dao */
 
-            header {
-                text-align: center;
-                margin-bottom: 20px;
-            }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
 
-            h1 {
-                color: #2c3e50;
-                text-align: center;
-            }
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
 
-            h2 {
-                color: #2980b9;
-                text-align: center;
-            }
-            
-            h3 {
-                color: #2c3e50;
-                text-align: center;
-            }
+h1 {
+    color: #2c3e50;
+    text-align: center;
+}
 
-            p {
-                line-height: 1.25;
-                text-align: center;
-            }
+h2 {
+    color: #2980b9;
+    text-align: center;
+}
 
-            ul {
-                list-style-type: none;
-                text-align: center;
-                padding: 0;
-            }
+h3 {
+    color: #2c3e50;
+    text-align: center;
+}
 
-            footer {
-                text-align: center;
-                margin-top: 20px;
-                font-size: 0.8em;
-            }
+p {
+    line-height: 1.25;
+    text-align: center;
+}
 
-            a {
-                color: #2980b9;
-                text-decoration: none;
-            }
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
 
-            a:hover {
-                text-decoration: underline;
-            }
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.8em;
+}
 
-            img {
-                border-radius: 50%;
-                margin-top: 20px;
-            }
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
 
-            figure { 
-                /* this is a bandaid fix for the image in aboutme.html */
-                /* TODO: center the image properly or use a different element */
-                text-align: center;
-            }
+a:hover {
+    text-decoration: underline;
+}
 
-            @media (max-width: 600px) {
-                body {
-                    padding: 10px;
-                }
-                header, footer {
-                    text-align: center;
-                }
-            }
+img {
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    header, footer {
+        text-align: center;
+    }
+}
