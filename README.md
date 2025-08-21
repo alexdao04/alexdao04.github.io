@@ -1,5 +1,4 @@
-# Last Maintained: 8/20/2025
-# Site Maintainer: Alexander Dao
+# Last Maintained: 8/20/2025, Maintainer: Alexander Dao
 
 **alexdao04.github.io**
 
