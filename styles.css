@@ -43,7 +43,7 @@ ul {
 
 footer {
     text-align: center;
-    margin-top: 50px;
+    position: relative;
     font-size: 0.8em;
 }
 
@@ -59,6 +59,36 @@ a:hover {
 img {
     border-radius: 50%;
     margin-top: 20px;
+}
+
+/* TODO: in retrospect, instead of global styling,
+i should be doing class-based styling for the site elements 
+this should apply to the button elements i'm experimenting with */
+
+.about-me {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    top: 20px;
+    transform: translate(-50%, -50%); /* this should center the button? */
+}
+
+.return-home {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: relative;
+    left: 80%;
+    right: 20%;
 }
 
 @media (max-width: 600px) {
