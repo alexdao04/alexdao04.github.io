@@ -68,21 +68,19 @@ this should apply to the button elements i'm experimenting with */
 .about-me {
     background-color: #2980b9;
     color: white;
-    border: none;
+    border: 1.25px solid black;
     cursor: pointer;
     padding: 10px 20px;
     border-radius: 5px;
     position: relative;
-    left: 50%;
-    right: 50%;
-    top: 20px;
-    transform: translate(-50%, -50%); /* this should center the button? */
+    left: auto;
+    right: auto;
 }
 
 .return-home {
     background-color: #2980b9;
     color: white;
-    border: none;
+    border: 1.25px solid black;
     cursor: pointer;
     padding: 10px 20px;
     border-radius: 5px;
