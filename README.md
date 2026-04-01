@@ -1,4 +1,4 @@
-# Last Maintained: 12/12/2025, Maintainer: Alexander Dao
+# Last Maintained: 8/20/2025, Maintainer: Alexander Dao
 
 **alexdao04.github.io**
 
@@ -11,3 +11,7 @@ Mainpage (index) -> About me -> Mainpage
 Mainpage -> Resume -> Mainpage
 Mainpage -> GitHub
 Mainpage -> LinkedIn
+
+It's really simple, and that's the point. 
+It's meant to optimize my communications, and it does that job perfectly.
+Can't argue with that.
